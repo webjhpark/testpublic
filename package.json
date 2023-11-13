@@ -1,0 +1,55 @@
+{
+  "name": "frog2am-test",
+  "version": "1.0.5",
+  "description": "UI Components Test (npm 소개글)",
+  "keywords": [
+    "react",
+    "typescript",
+    "vue"
+  ],
+  "homepage": "https://www.youtube.com/",
+  "bugs": {
+    "url": "https://github.com/axios/axios/issues",
+    "email": "issues@axios.com"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "frog2am",
+    "email": "frog2am@naver.com"
+  },
+  "repository": "https://github.com/testjhparkz/npm_test",
+  "engines": {
+    "node": ">=18.12.0"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "browser": "./browser/specific/main.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "rimraf dist && mkdir dist && tsc",
+    "upload": "npm publish"
+  },
+  "dependencies": {
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.10",
+    "@types/react": "^18.2.33",
+    "@types/react-dom": "^18.2.14",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
